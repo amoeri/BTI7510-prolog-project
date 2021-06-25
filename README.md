@@ -18,7 +18,9 @@ A prolog program was implemented in three parts:
 - Finding the treasure
 - Switching rooms
 - Picking up a key
+
 Thus there are three definition of `step()`.
+
 While solving, we keep track of which room the agent is in, which keys have been picked up, which rooms have been visited (to avoid loops) and a log of the previous steps.
 
 `run.pl` allows for easy execution of the solver and can be for example run like this `swipl -s run.pl`
