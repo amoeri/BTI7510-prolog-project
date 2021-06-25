@@ -29,8 +29,8 @@ switchRoom(ROOM, KEYS, NEW_ROOM, LOG, NEW_LOG, ROOMS, NEW_ROOMS) :-
 	has_door(ROOM, NEW_ROOM, KEY),
 	member(KEY, KEYS),
 	not(member(NEW_ROOM, ROOMS)),
-	string_concat("Switch from Room ", ROOM, LINE2),
-	string_concat(LINE2, " to Room ", LINE3),
+	string_concat("Switch from ", ROOM, LINE2),
+	string_concat(LINE2, " to ", LINE3),
 	string_concat(LINE3, NEW_ROOM, LINE4),
 	append(LOG, [LINE4], NEW_LOG),
 	append(ROOMS, [NEW_ROOM], NEW_ROOMS).
