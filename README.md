@@ -1,12 +1,12 @@
-# BTI7510-prolog-project
-Final project for Artificial Intelligence lecture BTI7510 at BFH
+# Prolog exercise
+Pproject for Artificial Intelligence lecture BTI7510 at BFH in 2021
 
 ## Puzzle
 The goal of this project was to solve following puzzle
 
 ![puzzle](puzzle.png)
 
-Where it is the agents goal to find the treasure by mobinf from room to room through the doors.
+Where it is the agents goal to find the treasure by moving from room to room through the doors.
 To open the door N the corresponding key N is required. Keys can be picked up when the agent is in the same room as the key.
 
 ## Method
