@@ -1,5 +1,5 @@
 # Prolog exercise
-Pproject for Artificial Intelligence lecture BTI7510 at BFH in 2021
+Project for Artificial Intelligence lecture BTI7510 at BFH in 2021
 
 ## Puzzle
 The goal of this project was to solve following puzzle
